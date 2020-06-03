@@ -172,8 +172,6 @@ export default class Farmer extends React.Component {
             region={{
               latitude: this.state.latitude,
               longitude: this.state.longitude,
-              // latitudeDelta: 0.015,
-              // longitudeDelta: 0.0121
               latitudeDelta: this.state.latDelta,
               longitudeDelta: this.state.longDelta
             }}
@@ -223,7 +221,7 @@ export default class Farmer extends React.Component {
           </View>
 
 
-          <View style={{width:'95%',height:400, alignItems:'center',alignSelf: "center", padding:'5%'}}>
+          <View style={{width:'95%',height:350, alignItems:'center',alignSelf: "center", padding:'5%'}}>
             <Carousel
                 ref={(c) => { this._carousel = c; }}
                 data={this.state.entries}
@@ -300,7 +298,7 @@ const styles = StyleSheet.create({
   map:{
     backgroundColor: '#000',
     alignSelf: 'stretch',
-    height: 400,
+    height: 550,
     alignItems: "center",
   },
 });

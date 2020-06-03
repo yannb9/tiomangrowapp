@@ -10,8 +10,10 @@ import Loading from "./screens/Loading";
 import Login from "./screens/Login";
 import RegisterStep1 from "./screens/RegisterStep1";
 import RegisterStep2 from "./screens/RegisterStep2";
+import Home2 from "./screens/Home2";
 import Home from "./screens/Home";
 import Farmer from "./screens/Farmer";
+import Farmer2 from "./screens/Farmer2";
 import Screen from "./screens/Screen";
 // import DB from "./screens/DB";
 import Add_Farmer_Step1 from "./screens/Add_Farmer/Add_Farmer_Step1"
@@ -49,7 +51,9 @@ const config = Platform.select({
 
 const AppStack = createStackNavigator({
     Home: Home,
+    Home2: Home2,
     Farmer: Farmer,
+    Farmer2: Farmer2,
 },config);
 
 const AuthStack = createStackNavigator({

@@ -75,6 +75,7 @@ const properties = StyleSheet.create({
       alignContent:'center',
       alignSelf:'center',
       width:'95%',
+      // height:10,
       // backgroundColor:'green',
     },
     title:{

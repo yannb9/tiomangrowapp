@@ -137,7 +137,7 @@ updatemySQLDB = () => {
 }
 
   toFarmerProfile = (data) => {    
-    this.props.navigation.navigate("Farmer",{
+    this.props.navigation.navigate("Farmer2",{
       id: data.id,
       name: data.name,
       farm_city: data.farm_city,
@@ -187,7 +187,7 @@ updatemySQLDB = () => {
           </View>
         </View>
         {/* <Button title="logout" onPress={this.signOutUser} /> */}
-        {/* <Button title="addmysql" onPress={this.postData} /> */}
+        <Button title="home2" onPress={()=>this.props.navigation.navigate('Home2')} />
         <ScrollView style={styles.scroll_view}>
           {this.state.farmers.map((farmer, idx) =>(
             

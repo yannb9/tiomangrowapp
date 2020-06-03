@@ -1,10 +1,10 @@
 {
   "expoServerPort": 19000,
-  "expoServerNgrokUrl": "https://8t-g6n.yannb9.tgrow.exp.direct",
-  "packagerNgrokUrl": "https://packager.8t-g6n.yannb9.tgrow.exp.direct",
-  "ngrokPid": 79400,
+  "expoServerNgrokUrl": "https://8t-g6n.yannb9.tiomangrowapp.exp.direct",
+  "packagerNgrokUrl": "https://packager.8t-g6n.yannb9.tiomangrowapp.exp.direct",
+  "ngrokPid": 70066,
   "devToolsPort": 19002,
   "packagerPort": 19001,
-  "packagerPid": 79295,
+  "packagerPid": 70044,
   "webpackServerPort": null
 }
