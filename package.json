@@ -37,7 +37,7 @@
     "react-native-reanimated": "~1.4.0",
     "react-native-safe-area-context": "0.6.0",
     "react-native-safe-area-view": "^1.0.0",
-    "react-native-screens": "2.0.0-alpha.12",
+    "react-native-screens": "2.10.1",
     "react-native-shadow": "^1.2.2",
     "react-native-side-drawer": "^1.2.5",
     "react-native-sms-verifycode": "^2.4.0",
