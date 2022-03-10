@@ -51,7 +51,7 @@
     "react-navigation-drawer": "^2.4.2",
     "react-navigation-stack": "^2.0.15",
     "spinners-react": "^1.0.3",
-    "yup": "^0.28.3"
+    "yup": "^0.30.0"
   },
   "devDependencies": {
     "@babel/core": "^7.0.0",
